@@ -8,15 +8,9 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import nl.rabobank.gict.ip.ms.order.config.OrderNumberConfiguration;
-
 @Path("/orders")
 public class OrderResource {
-    private final OrderNumberConfiguration orderConfiguration;
 
-    public OrderResource(OrderNumberConfiguration orderConfiguration) {
-        this.orderConfiguration = orderConfiguration;
-    }
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
@@ -28,7 +22,7 @@ public class OrderResource {
     @POST
     @Produces(MediaType.APPLICATION_JSON)
     public String createOrder() {
-        return orderConfiguration.getId();
+        return "42";
     }
 
     public static void main(String[] args) throws IOException {
