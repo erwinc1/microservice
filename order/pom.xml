@@ -9,31 +9,19 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!--<dependency>-->
-        <!--<groupId>com.yammer.dropwizard</groupId>-->
-        <!--<artifactId>dropwizard-core</artifactId>-->
-        <!--<version>LATEST</version>-->
-        <!--</dependency>-->
-
-        <!-- http://mvnrepository.com/artifact/io.dropwizard/dropwizard-core -->
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
             <version>0.9.2</version>
         </dependency>
-
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.4</version>
         </dependency>
         <dependency>
-            <groupId>com.mashape.unirest</groupId>
-            <artifactId>unirest-java</artifactId>
-            <version>1.4.9</version>
-        </dependency>
-        <dependency>
             <groupId>com.orbitz.consul</groupId>
+
             <artifactId>consul-client</artifactId>
             <version>0.12.0</version>
         </dependency>
@@ -48,14 +36,6 @@
             <name>bintray</name>
             <url>http://jcenter.bintray.com</url>
         </repository>
-        <!--<repository>-->
-        <!--<snapshots>-->
-        <!--<enabled>false</enabled>-->
-        <!--</snapshots>-->
-        <!--<id>dropwizard-core</id>-->
-        <!--<name>dropwizard-core</name>-->
-        <!--<url>http://mvnrepository.com/artifact/io.dropwizard/dropwizard-core</url>-->
-        <!--</repository>-->
     </repositories>
 
     <build>

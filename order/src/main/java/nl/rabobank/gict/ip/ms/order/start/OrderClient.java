@@ -37,14 +37,11 @@ public class OrderClient implements Runnable {
         final Consul consul =
                 Consul.builder().withHostAndPort(HostAndPort.fromParts(orderConfiguration.getServiceAddress(), 8500))
                     .build();
-
         agentClient = consul.agentClient();
-
-        agentClient.register(orderConfiguration.getServicePort(), 5L, orderConfiguration.getServiceName(),
-            orderConfiguration.getServiceId());
-
         while (running) {
             try {
+                agentClient.register(orderConfiguration.getServicePort(), 5L, orderConfiguration.getServiceName(),
+                    orderConfiguration.getServiceId());
                 agentClient.pass(orderConfiguration.getServiceId());
                 Thread.sleep(4000);
             } catch (final InterruptedException | NotRegisteredException e) {

@@ -12,10 +12,6 @@ public class OrderStart extends Application<OrderConfiguration> {
         new OrderStart().run(args);
     }
 
-    public OrderStart() {
-
-    }
-
     @Override
     public void run(final OrderConfiguration orderConfiguration, final Environment environment) throws Exception {
         environment.jersey().register(new OrderResource());
