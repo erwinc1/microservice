@@ -1,0 +1,6 @@
+ordernumber:
+  id: 42
+
+http:
+  port: 9200
+  adminPort: 9201

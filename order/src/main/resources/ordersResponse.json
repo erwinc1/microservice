@@ -1,0 +1,34 @@
+{
+  "orderNumber": 42,
+  "shippingState": "shipped",
+  "billingState": "paid",
+  "cost": 144.44,
+  "description": "Some lovely beverages",
+  "orderLines": [
+    {
+      "name": "Jack Daniels",
+      "category": "Tennessee whisky",
+      "quantity": "2",
+      "cost": 19.95
+    }
+  ],
+  "contactInformation": {
+    "name": "Willem Dekker",
+    "phone": "+31 88 58 64 640",
+    "email": "willem.dekker@luminis.eu"
+  },
+  "carrierInformation": {
+    "carrier": "UPS",
+    "trackingId": "AZX3355FD53"
+  },
+  "shippingAddress": {
+    "street": "Lichtenauerlaan 120",
+    "city": "Rotterdam",
+    "postCode": "3062 ME"
+  },
+  "billingAddress": {
+    "street": "Herman de Manpark 37",
+    "city": "Lopik",
+    "postCode": "3411 ZN"
+  }
+}
