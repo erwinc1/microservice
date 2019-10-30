@@ -13,22 +13,22 @@
     }
   ],
   "contactInformation": {
-    "name": "Willem Dekker",
-    "phone": "+31 88 58 64 640",
-    "email": "willem.dekker@luminis.eu"
+    "name": "X X",
+    "phone": "+31 XX XX XX XXX",
+    "email": "x.x@x.eu"
   },
   "carrierInformation": {
     "carrier": "UPS",
     "trackingId": "AZX3355FD53"
   },
   "shippingAddress": {
-    "street": "Lichtenauerlaan 120",
-    "city": "Rotterdam",
-    "postCode": "3062 ME"
+    "street": "A 120",
+    "city": "Ro",
+    "postCode": "1111 AA"
   },
   "billingAddress": {
-    "street": "Herman de Manpark 37",
-    "city": "Lopik",
-    "postCode": "3411 ZN"
+    "street": "A de B 11",
+    "city": "A",
+    "postCode": "1111 AA"
   }
 }
